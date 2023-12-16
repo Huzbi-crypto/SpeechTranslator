@@ -6,7 +6,7 @@ import playsound
 source_lang = input("Enter the source language you're going to speak. Follow this format: https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages: ")
 target_lang = input("Enter the target language to translate into ('ja', 'en', etc.): ")
 
-# record the voice 
+# record the voice the user speaks
 speech_to_txt = sr.Recognizer()
 try:
     with sr.Microphone() as source:
